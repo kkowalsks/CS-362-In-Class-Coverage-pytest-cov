@@ -1,7 +1,7 @@
 import unittest
 import leapyear
 
-class testCaseLeapCheck(unittest.testCase):
+class testCaseLeapCheck(unittest.TestCase):
     def test_leapCheck(self):
         self.assertEqual(leapyear.leapCheck(2008), True)
         self.assertEqual(leapyear.leapCheck(2100), False)
