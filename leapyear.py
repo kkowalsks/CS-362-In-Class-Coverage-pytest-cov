@@ -32,3 +32,8 @@ def leapCheck(x):
                 userinput = str(x)
                 print(userinput + " is a leap year")
                 return True
+
+leapCheck(2001)
+leapCheck(2004)
+leapCheck(2100)
+leapCheck(2000)
